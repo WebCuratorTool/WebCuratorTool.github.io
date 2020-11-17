@@ -1,0 +1,27 @@
+# main links
+main:
+  - title: "Github"
+    url: https://github.com/WebCuratorTool
+  - title: "Documentation"
+    url: https://webcuratortool.readthedocs.io/
+  - title: "Blog"
+    url: /blog/
+  - title: "Support"
+    url: /support/
+  - title: "About"
+    url: /about/overview
+about-wct:
+  - title: About
+    children:
+      - title: Overview
+        url: /about/overview
+      - title: Collaboration
+        url: /about/collaboration
+      - title: Roadmap
+        url: /about/roadmap
+      - title: History
+        url: /about/history
+      - title: Publications
+        url: /about/publications
+      - title: Events
+        url: /about/events
