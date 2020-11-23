@@ -20,7 +20,7 @@ title                    : "Web Curator Tool"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "National Library of the Netherlands, National Library of New Zealand"
-description              : "An amazing website."
+description              : "An open-source workflow management application for selective web archiving."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "National Library of the Netherlands, National Library of New Zealand"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Major contributors to the Web Curator Tool are NLNZ (The National Library of New Zealand) (https://natlib.govt.nz/) and KB (Koninklijke Bibliotheek or The National Library of the Netherlands) (https://www.kb.nl)."
+  location         : "Netherlands, New Zealand"
   email            :
   links:
     - label: "Email"
