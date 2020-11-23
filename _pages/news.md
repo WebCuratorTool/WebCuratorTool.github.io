@@ -1,6 +1,6 @@
 ---
-title: "Blog"
-permalink: /blog/
+title: "News"
+permalink: /news/
 layout: blog
 sidebar: true
 ---
