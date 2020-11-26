@@ -4,13 +4,12 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/wct_banner.png
   actions:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "https://webcuratortool.readthedocs.io/en/latest/guides/quick-start-guide.html#installation"
 excerpt: >
   An open-source workflow management application for selective web archiving.<br />
-  <small><a href="https://github.com/DIA-NZ/webcurator/releases/tag/v2.0.2">Latest release v2.0.2</a></small>
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"

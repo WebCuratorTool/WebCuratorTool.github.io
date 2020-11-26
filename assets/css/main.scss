@@ -6,3 +6,12 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.subheading {
+    font-family: $global-font-family;
+    font-size: $type-size-4;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(#000, 0.5);
+    padding-top: 8rem;
+    text-align: right;
+}
