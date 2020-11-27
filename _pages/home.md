@@ -4,12 +4,12 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/wct_banner.png
+  overlay_image: /assets/images/wct_banner_base-h800.png
   actions:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "https://webcuratortool.readthedocs.io/en/latest/guides/quick-start-guide.html#installation"
 excerpt: >
-  An open-source workflow management application for selective web archiving.<br />
+  Open-source workflow management for selective web archiving.<br />
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
