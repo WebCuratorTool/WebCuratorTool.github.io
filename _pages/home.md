@@ -9,7 +9,7 @@ header:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "https://webcuratortool.readthedocs.io/en/latest/guides/quick-start-guide.html#installation"
 excerpt: >
-  Open-source workflow management for selective web archiving.<br />
+  Open-source workflow management for selective web archiving<br />
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
