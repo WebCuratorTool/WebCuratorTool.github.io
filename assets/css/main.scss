@@ -7,12 +7,22 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.mainheading {
+    @extend .page__title;
+    font-family: Georgia, 'Times New Roman', Times, serif !important; 
+    font-weight: normal !important;
+    font-size: 5.5vw !important;
+    text-shadow: 2px 2px 8px rgba(#000, 0.5) !important;
+    text-transform: uppercase;
+    padding-left: 28vw;
+}
+
 .subheading {
     font-family: $global-font-family;
-    font-size: $type-size-4;
+    font-size: 5.5vw 2vmin !important;
     color: #fff;
     text-shadow: 1px 1px 4px rgba(#000, 0.5);
-    padding-top: 8rem;
-    padding-left: 10em;
+    padding-left: 28vw;
+    padding-right: 5vw;
     text-align: right;
 }
