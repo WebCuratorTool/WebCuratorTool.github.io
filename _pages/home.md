@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/wct_banner_base-h800-no-text.png
+  overlay_image: /assets/images/wct_banner_base-h500-no-text.png
   actions:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "https://webcuratortool.readthedocs.io/en/latest/guides/quick-start-guide.html#installation"
