@@ -14,7 +14,9 @@
     font-size: 6vw !important;
     text-shadow: 2px 2px 8px rgba(#000, 0.5) !important;
     text-transform: uppercase;
-    padding-left: 25vw;
+    padding-left: 23vw;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .subheading {
