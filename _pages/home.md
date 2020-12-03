@@ -29,7 +29,7 @@ feature_row:
     alt: "community"
     title: "Community"
     excerpt: "Join us to learn about or contribute to the WCT"
-    url: "/about/collaboration/"
+    url: "/about/collaboration"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
