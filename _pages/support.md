@@ -31,4 +31,4 @@ Check out some of our guides and tutorials over on [readthedocs](https://webcura
 
 ## Contact
 
-If you would just like to send us an email - support@webcuratortool.org
+If you would just like to send us an email - x

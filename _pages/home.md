@@ -22,7 +22,7 @@ feature_row:
     alt: "features"
     title: "WCT features"
     excerpt: "Check out the latest WCT features and see what's on the roadmap"
-    url: "/features/"
+    url: "/about/features"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/community.png
