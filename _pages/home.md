@@ -13,9 +13,9 @@ excerpt: >
 feature_row:
   - image_path: /assets/images/quickstart.png
     alt: "guide"
-    title: "Quick start guide"
+    title: "Quick start guide and demo"
     excerpt: "How to quickly get started using the WCT"
-    url: "https://webcuratortool.readthedocs.io/en/latest/guides/quick-start-guide.html"
+    url: "/guide/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/features.png
