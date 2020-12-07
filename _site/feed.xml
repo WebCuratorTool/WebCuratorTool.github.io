@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-07T11:15:21+13:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Web Curator Tool</title><subtitle>An open-source workflow management application for selective web archiving.</subtitle><author><name>National Library of the Netherlands, National Library of New Zealand</name></author><entry><title type="html">Welcome to our new website!</title><link href="http://localhost:4000/welcome-to-the-new-website/" rel="alternate" type="text/html" title="Welcome to our new website!" /><published>2020-11-26T00:00:00+13:00</published><updated>2020-11-27T02:06:00+13:00</updated><id>http://localhost:4000/welcome-to-the-new-website</id><content type="html" xml:base="http://localhost:4000/welcome-to-the-new-website/">&lt;p&gt;Welcome to the new website for the Web Curator Tool (WCT).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-07T17:50:43+13:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Web Curator Tool</title><subtitle>An open-source workflow management application for selective web archiving.</subtitle><author><name>National Library of the Netherlands, National Library of New Zealand</name></author><entry><title type="html">Welcome to our new website!</title><link href="http://localhost:4000/welcome-to-the-new-website/" rel="alternate" type="text/html" title="Welcome to our new website!" /><published>2020-11-26T00:00:00+13:00</published><updated>2020-11-27T02:06:00+13:00</updated><id>http://localhost:4000/welcome-to-the-new-website</id><content type="html" xml:base="http://localhost:4000/welcome-to-the-new-website/">&lt;p&gt;Welcome to the new website for the Web Curator Tool (WCT).&lt;/p&gt;
 
 &lt;p&gt;On the new site you will find important links for new and existing WCT users, such as guides for getting up and running, documentation, source code, the features of WCT and our development roadmap.&lt;/p&gt;
 
-&lt;p&gt;Our core communcation channels remain the same - Github and Slack, with the addition of a general email address (info@webcuratortool.org) for contact with the teams at the National Library of the Netherlands (KB-NL) and the National Library of New Zealand (NLNZ).&lt;/p&gt;
+&lt;p&gt;Our core communcation channels remain the same - Github and Slack, with the addition of a general email address (&lt;img src=&quot;/assets/images/email.png&quot; alt=&quot;&quot; style=&quot;height: 1.42em;&quot; /&gt;) for contact with the teams at the National Library of the Netherlands (KB-NL) and the National Library of New Zealand (NLNZ).&lt;/p&gt;
 
 &lt;p&gt;Our hope is to also share more frequent updates covering the development, the use of, and promotion of WCT.&lt;/p&gt;
 
@@ -13,10 +13,10 @@
 &lt;table&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;info@webcuratortool.org&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/email.png&quot; alt=&quot;&quot; style=&quot;height: 1.42em;&quot; /&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://webcurator.slack.com/&quot;&gt;Slack&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://github.com/WebCuratorTool/webcurator&quot;&gt;Github&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://twitter.com/webcuratortool&quot;&gt;@WebCuratorTool&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>National Library of the Netherlands, National Library of New Zealand</name></author><summary type="html">Welcome to the new website for the Web Curator Tool (WCT). On the new site you will find important links for new and existing WCT users, such as guides for getting up and running, documentation, source code, the features of WCT and our development roadmap.</summary></entry></feed>
+&lt;/table&gt;</content><author><name>Ben O'Brien</name></author><summary type="html">Welcome to the new website for the Web Curator Tool (WCT). On the new site you will find important links for new and existing WCT users, such as guides for getting up and running, documentation, source code, the features of WCT and our development roadmap.</summary></entry></feed>
