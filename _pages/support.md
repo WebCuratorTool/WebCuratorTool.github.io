@@ -31,4 +31,4 @@ Check out some of our guides and tutorials over on [readthedocs](https://webcura
 
 ## Contact
 
-If you would just like to send us an email - x
+If you would just like to send us an email - ![](/assets/images/email.png){:style="height: 1.42em;"}

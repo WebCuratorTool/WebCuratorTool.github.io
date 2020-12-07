@@ -2,13 +2,14 @@
 title:  "Welcome to our new website!"
 excerpt: "Welcome to the new website for the Web Curator Tool (WCT). On the new site you will find important links for new and existing WCT users, such as guides for getting up and running, documentation, source code, the features of WCT and our development roadmap."
 last_modified_at: 2020-11-26T08:06:00-05:00
+author: ben_obrien
 ---
 
 Welcome to the new website for the Web Curator Tool (WCT).
 
 On the new site you will find important links for new and existing WCT users, such as guides for getting up and running, documentation, source code, the features of WCT and our development roadmap.
 
-Our core communcation channels remain the same - Github and Slack, with the addition of a general email address (info@webcuratortool.org) for contact with the teams at the National Library of the Netherlands (KB-NL) and the National Library of New Zealand (NLNZ).
+Our core communcation channels remain the same - Github and Slack, with the addition of a general email address (![](/assets/images/email.png){:style="height: 1.42em;"}) for contact with the teams at the National Library of the Netherlands (KB-NL) and the National Library of New Zealand (NLNZ).
 
 Our hope is to also share more frequent updates covering the development, the use of, and promotion of WCT.
 
@@ -16,7 +17,7 @@ Please be aware that all Github activity for the project has been shifted to the
 
 If you have any comments or questions about WCT please get in touch with us, we would love to hear from you.
 
-info@webcuratortool.org | [Slack][slack-group] | [Github][github-repo] | [@WebCuratorTool][twitter-handle]
+![](/assets/images/email.png){:style="height: 1.42em;"} | [Slack][slack-group] | [Github][github-repo] | [@WebCuratorTool][twitter-handle]
 
 [slack-group]: https://webcurator.slack.com/
 [github-repo]:   https://github.com/WebCuratorTool/webcurator
