@@ -8,7 +8,7 @@
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">
-          <img src="/assets/images/wct_badge_h200.png" alt="Home" style="max-height: 3em;">
+          <img src="/assets/images/wct_badge_h200.png" alt="Home" style="max-height: 3em; z-index: 999999; position: relative;">
           {% if site.subtitle %}<span class="site-subtitle"></span>{% endif %}
         </a>
         <ul class="visible-links">

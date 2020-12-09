@@ -8,6 +8,6 @@ var store = [{
         "title": "Go-live of WCT 3 successful at National Libraries of the Netherlands and New Zealand",
         "excerpt":"The National Library of the Netherlands (KBNL) is the first organization to take the brand new version 3 of the Web Curator Tool (WCT) into production. As a faithful user of the WCT starting in 2007 the KBNL has since then harvested more than 18,000 websites successfully with the WCT...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/go-live/",
+        "url": "http://localhost:4000/wct-v3-release/",
         "teaser": null
       }]
