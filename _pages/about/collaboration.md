@@ -18,4 +18,4 @@ The WCT is developed through a close collaboration between the National Library 
 - You can join us on [Slack](https://webcurator.slack.com/signup) to ask questions about the WCT.
 - You can download and start using the WCT.  We suggest you start with the [quick start guide](https://webcuratortool.readthedocs.io/en/latest/guides/quick-start-guide.html).
 - If you find any issues when using the WCT, you can log them in our [Github repository](https://github.com/WebCuratorTool/webcurator-webapp/issues).
-- Let us know if you're using the WCT and any improvements you'd like to see by emailing us at ![](/assets/images/trienka-email.png){:style="height: 1.42em;"}.
+- Let us know if you're using the WCT and any improvements you'd like to see by emailing us at ![](/assets/images/email.png){:style="height: 1.42em;"}.
