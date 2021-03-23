@@ -1,23 +1,21 @@
 # main links
 main:
   - title: WCT
-    url: /
-    subfolderitems:
+    children:
       - page: Overview
         url: /about/overview
       - page: Features
         url: /about/features
-      - page: Roadmap
-        url: 
       - page: Download
-        url: 
+        url: https://github.com/WebCuratorTool/webcurator/releases
   - title: Github
     url: https://github.com/WebCuratorTool
   - title: News
     url: /news/
   - title: Support
-    url: /support/
-    subfolderitems:
+    children:
+      - page: Support
+        url: /support/
       - page: Documentation
         url: https://webcuratortool.readthedocs.io/
       - page: Guides/Demo
@@ -25,8 +23,9 @@ main:
       - page: Contact
         url: /support/
   - title: About
-    url: /about/overview
-    subfolderitems:
+    children:
+      - page: Overview
+        url: /about/overview
       - page: Community
         url: /about/collaboration
       - page: History

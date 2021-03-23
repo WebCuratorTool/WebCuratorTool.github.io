@@ -10,7 +10,7 @@ sidebar:
 
 The WCT is developed through a close collaboration between the National Library of New Zealand (NLNZ) and the National Library of the Netherlands (KBNL).
 
-![National Library of New Zealand](/assets/images/NLNZ-logo.png#greylogo)
+![National Library of New Zealand](/assets/images/NLNZ-logo-grey-background.png#greylogo)
 ![National Library of the Netherlands](/assets/images/KBlogo-grey-background.png#greylogo)
 
 #### How can you get involved with the WCT?

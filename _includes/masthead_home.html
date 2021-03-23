@@ -9,16 +9,26 @@
         {% endunless %}
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <b>
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-              </b>
-              <ul class="masthead__menu-item">
-                {% for sub in link.subfolderitems %}
-                  <li><a href="{{ sub.url }}">{{ sub.page }}</a></li>
-                {% endfor %}
-              </ul>
-            </li>
+            {% if link.children %} 
+              <li class="masthead__menu-item has-dropdown"> 
+                <b>
+                <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                </b>
+                <ul class="dropdown">
+                  {% for child in link.children %}
+                    <li class="dropdown-item">
+                      <a href="{{ child.url }}">{{ child.page }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="masthead__menu-item">
+                <b>
+                  <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                </b>
+              </li>
+            {% endif %}
           {%- endfor -%}
         </ul>
         {% if site.search == true %}

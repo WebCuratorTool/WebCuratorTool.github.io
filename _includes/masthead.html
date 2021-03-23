@@ -18,8 +18,8 @@
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
               </b>
               <ul class="masthead__menu-item">
-                {% for sub in link.subfolderitems %}
-                  <li><a href="{{ sub.url }}">{{ sub.page }}</a></li>
+                {% for child in link.children %}
+                  <li><a href="{{ child.url }}">{{ child.page }}</a></li>
                 {% endfor %}
               </ul>
             </li>

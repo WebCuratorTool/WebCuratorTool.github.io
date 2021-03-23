@@ -54,3 +54,28 @@ body {
 img[src*="#greylogo"] {
     height: 64px;
 }
+
+.dropdown {
+    opacity: 0;
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: visible;
+   
+    transform: translateX(-40%);
+    transition: opacity .15s ease-out;
+}
+
+.dropdown-item a {
+    width: 100%;
+    height: 100%;
+}
+
+.has-dropdown:focus-within .dropdown   {
+    opacity: 3;
+    pointer-events: visible;
+}
