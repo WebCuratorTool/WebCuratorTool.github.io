@@ -10,17 +10,15 @@
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             {% if link.children %} 
-              <li class="masthead__menu-item has-dropdown"> 
-                <b>
-                <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-                </b>
-                <ul class="dropdown">
-                  {% for child in link.children %}
-                    <li class="dropdown-item">
+              <li class="masthead__menu-item"> 
+                <div class ="masthead__menu-item">
+                  <button class="nav-drop-btn">{{ link.title }}</button>
+                  <div class="nav-drop-item">
+                    {%- for child in link.children -%}
                       <a href="{{ child.url }}">{{ child.page }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
+                    {%- endfor -%}
+                  </div>
+                </div>
               </li>
             {% else %}
               <li class="masthead__menu-item">

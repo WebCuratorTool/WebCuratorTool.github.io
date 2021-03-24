@@ -13,16 +13,24 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <b> 
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-              </b>
-              <ul class="masthead__menu-item">
-                {% for child in link.children %}
-                  <li><a href="{{ child.url }}">{{ child.page }}</a></li>
-                {% endfor %}
-              </ul>
-            </li>
+            {% if link.children %}
+              <li class="masthead__menu-item"> 
+                <div class ="masthead__menu-item">
+                  <button class="nav-drop-btn">{{ link.title }}</button>
+                  <div class="nav-drop-item">
+                    {%- for child in link.children -%}
+                      <a href="{{ child.url }}">{{ child.page }}</a>
+                    {%- endfor -%}
+                  </div>
+                </div>
+              </li>
+            {% else %}
+              <li class="masthead__menu-item">
+                <b> 
+                <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                </b>
+              </li>
+            {% endif %}
           {%- endfor -%}
         </ul>
         {% if site.search == true %}
