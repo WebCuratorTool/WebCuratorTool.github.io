@@ -3,13 +3,13 @@ main:
   - title: WCT
     children:
       - page: Overview
-        url: /about/overview
+        url: /overview
       - page: Features
-        url: /about/features
+        url: /features
       - page: Download
         url: https://github.com/WebCuratorTool/webcurator/releases
   - title: Github
-    url: https://github.com/WebCuratorTool
+    url: https://github.com/WebCuratorTool/webcurator
   - title: News
     url: /news/
   - title: Support

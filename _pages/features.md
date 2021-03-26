@@ -1,12 +1,9 @@
 ---
 layout: single
 title: "WCT Features"
-permalink: /about/features
+permalink: /features
 excerpt: "WCT Features"
 last_modified_at: 2020-12-04T03:02:20+00:00
-sidebar: true
-sidebar:
-  nav: "about-wct"
 ---
 
 #### What is the WCT?  

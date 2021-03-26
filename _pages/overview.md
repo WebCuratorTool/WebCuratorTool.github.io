@@ -1,11 +1,8 @@
 ---
 layout: single
-permalink: /about/overview
+permalink: /overview
 title: "Overview"
 last_modified_at: 2020-05-01T10:15:22-04:00
-sidebar: true
-sidebar:
-  nav: "about-wct"
 ---
 
 The Web Curator Tool (WCT) is a tool for managing the selective web harvesting process, and is designed for use in libraries by non-technical users. It is integrated with v3 of the Heritrix web crawler which is used to download web material (but technical details are handled behind the scenes by system administrators).
