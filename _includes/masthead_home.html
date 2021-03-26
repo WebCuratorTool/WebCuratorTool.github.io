@@ -10,14 +10,12 @@
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             {% if link.children %} 
-              <li class="masthead__menu-item"> 
-                <div class ="masthead__menu-item">
-                  <button class="nav-drop-btn">{{ link.title }}</button>
-                  <div class="nav-drop-item">
-                    {%- for child in link.children -%}
-                      <a href="{{ child.url }}">{{ child.page }}</a>
-                    {%- endfor -%}
-                  </div>
+              <li class="nav-drop">
+                <button class="nav-drop-btn">{{ link.title }}</button>
+                <div class="nav-drop-item">
+                  {%- for child in link.children -%}
+                    <a href="{{ child.url }}">{{ child.page }}</a>
+                  {%- endfor -%}
                 </div>
               </li>
             {% else %}

@@ -24,8 +24,6 @@ main:
         url: /support/
   - title: About
     children:
-      - page: Overview
-        url: /about/overview
       - page: Community
         url: /about/collaboration
       - page: History
@@ -35,12 +33,8 @@ main:
 about-wct:
   - title: About
     children:
-      - title: Overview
-        url: /about/overview
       - title: Community
         url: /about/collaboration
-      - title: Features
-        url: /about/features
       - title: History
         url: /about/history
       - title: Publications
