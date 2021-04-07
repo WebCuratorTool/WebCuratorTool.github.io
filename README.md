@@ -29,7 +29,7 @@ commits to determine code authorship. Apache 2.0 License.
 
 To build this site locally you first need to install Jekyll.  The Ubuntu commands are:
 -  sudo apt install ruby-full build-essential zlib1g-dev
--  gem install jekyll bundler
+-  sudo gem install jekyll bundler
 
 
 From within your `WebCuratorTool.github.io` directory, use command 
