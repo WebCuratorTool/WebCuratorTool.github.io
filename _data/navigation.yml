@@ -21,7 +21,7 @@ main:
       - page: Guides/Demo
         url: /guide/
       - page: Contact
-        url: /support/
+        url: /support/#contact
   - title: About
     children:
       - page: Community
