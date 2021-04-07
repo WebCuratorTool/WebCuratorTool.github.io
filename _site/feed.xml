@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-22T10:07:16+13:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Web Curator Tool</title><subtitle>An open-source workflow management application for selective web archiving.</subtitle><author><name>National Library of the Netherlands, National Library of New Zealand</name></author><entry><title type="html">Go-live of WCT 3 successful at National Libraries of the Netherlands and New Zealand</title><link href="http://localhost:4000/wct-v3-release/" rel="alternate" type="text/html" title="Go-live of WCT 3 successful at National Libraries of the Netherlands and New Zealand" /><published>2020-12-07T00:00:00+13:00</published><updated>2020-12-08T02:06:00+13:00</updated><id>http://localhost:4000/wct-v3-release</id><content type="html" xml:base="http://localhost:4000/wct-v3-release/">&lt;p&gt;The National Library of the Netherlands (KBNL) is the first organization to take the brand new version 3 of the Web Curator Tool (WCT) into production. As a faithful user of the WCT starting in 2007 the KBNL has since then harvested more than 18,000 websites successfully with the WCT as a workflow management solution for scheduling, harvesting and quality analysis. With WCT 3 into production, the KBNL has improved reliability of the WCT environment and is ready for future enhancements. Jeffrey van der Hoeven, head of the Digital Preservation dept at KBNL: “I’m very proud that our cooperation with NLNZ is working out so well. WCT version 3 is the result of that joint development effort.”&lt;/p&gt;
+
+&lt;p&gt;The National Library of New Zealand (NLNZ) has also successfully put version 3 of the WCT into production. As one of the institutions that first developed the WCT in 2006, NLNZ has since that time been using the WCT to manage its selective web harvesting. Having migrated to version 3, NLNZ now has up-to-date tools at the heart of its web archiving programme. Andrea Goethals, Manager of Digital Preservation at NLNZ: “It was very fortunate for us that the KBNL had very similar needs as us for a web archiving tool that can be put in the hands of our curators. By collaborating on developing WCT with us, we all end up with a much better solution.”&lt;/p&gt;
+
+&lt;h4 id=&quot;whats-new-in-version-3&quot;&gt;What’s new in version 3?&lt;/h4&gt;
+
+&lt;p&gt;With version 3 you get a much easier installation process, well documented and tested, and an up-to-date technical framework behind the scenes. With this solid foundation in place, you will also be in a much better position to receive future updates with new functionality.&lt;/p&gt;
+
+&lt;p&gt;A significant change in version 3 that System Administrators should be aware of is that WCT no longer requires an application container, such as Tomcat to run it. Instead, WCT has now been migrated to run with Spring Boot, which uses an embedded Tomcat server.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-choose-wct&quot;&gt;Why choose WCT?&lt;/h4&gt;
+
+&lt;p&gt;Jeffrey: “Reliability and full control over our web harvesting process is very important to us. Meanwhile, we believe that collection specialists are often not techies and need easy-to-use tools at hand. Therefore, the WCT is an excellent piece of equipment for us.”&lt;/p&gt;
+
+&lt;p&gt;In 2018, version 2 of the WCT was released publicly containing long-awaited improvements on crawling techniques by integrating the latest Heritrix crawl engine H3 into WCT. But under the hood, a lot of the technical libraries and scripts of WCT were outdated due to lack of maintenance for several years before. Also, installation and migration could be a quite challenging process.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile the WCT still delivered strong crawling results and has shown to be a powerful tool in performing orchestrated selective web harvests. Both National Library of New Zealand and KBNL recognized that investing in the WCT is worthwhile. In 2017 this resulted in the start of a strong cooperation between the two organizations to revamp the WCT and bring the software a major uplift, first technically and later on functionally.&lt;/p&gt;
+
+&lt;p&gt;Trienka Rohrbach, service administrator at KBNL states the usefulness of WCT for her library: “With the WCT I’m capable of supporting our collection specialists at the library in such a way that they can schedule crawls and perform in-depth analysis on their own without the need to dive into a lot of technical details.”&lt;/p&gt;
+
+&lt;p&gt;Since the successful relaunch of WCT with version 2, it took about two years of development to upgrade the whole software stack of WCT into a modern foundation while not compromising reliability and backwards compatibility with previous WCT-versions currently in use across the web archiving community.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-to-be-expected-next&quot;&gt;What is to be expected next?&lt;/h4&gt;
+&lt;p&gt;The WCT development team has already started development on huge functional improvements such as a neat integration with the Webrecorder, graph-like visualization of web crawls and better screenshot capturing. We expect next releases to be more lightweight and more frequent so please stay in touch with the &lt;a href=&quot;https://webcuratortool.org/about/collaboration&quot;&gt;WCT community&lt;/a&gt;. Hanna Koppelaar, software developer at KBNL: “We’re still continuously improving the WCT code base and reducing technical debt, but the focus for version 4 will be adding new features and improvements requested by our users.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://webcuratortool.readthedocs.io/en/latest/guides/quick-start-guide.html#installation&quot;&gt;Click here&lt;/a&gt; to start downloading the new WCT release 3.&lt;/p&gt;
+
+&lt;p&gt;Want to try it first locally? &lt;a href=&quot;https://webcuratortool.org/guide/&quot;&gt;Download our demo-version ready for use in Virtual Box&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jeffrey van der Hoeven</name></author><summary type="html">The National Library of the Netherlands (KBNL) is the first organization to take the brand new version 3 of the Web Curator Tool (WCT) into production.</summary></entry><entry><title type="html">Welcome to our new website!</title><link href="http://localhost:4000/welcome-to-the-new-website/" rel="alternate" type="text/html" title="Welcome to our new website!" /><published>2020-11-26T00:00:00+13:00</published><updated>2020-11-27T02:06:00+13:00</updated><id>http://localhost:4000/welcome-to-the-new-website</id><content type="html" xml:base="http://localhost:4000/welcome-to-the-new-website/">&lt;p&gt;Welcome to the new website for the Web Curator Tool (WCT).&lt;/p&gt;
+
+&lt;p&gt;On the new site you will find important links for new and existing WCT users, such as guides for getting up and running, documentation, source code, the features of WCT and our development roadmap.&lt;/p&gt;
+
+&lt;p&gt;Our core communcation channels remain the same - Github and Slack, with the addition of a general email address (&lt;img src=&quot;/assets/images/email.png&quot; alt=&quot;&quot; style=&quot;height: 1.42em;&quot; /&gt;) for contact with the teams at the National Library of the Netherlands (KB-NL) and the National Library of New Zealand (NLNZ).&lt;/p&gt;
+
+&lt;p&gt;Our hope is to also share more frequent updates covering the development, the use of, and promotion of WCT.&lt;/p&gt;
+
+&lt;p&gt;Please be aware that all Github activity for the project has been shifted to the https://github.com/WebCuratorTool organisation. This is to better align with the collaborative development between KB-NL and NLNZ. The previous Github repository https://github.com/DIA-NZ/webcurator, has been transferred to https://github.com/WebCuratorTool/webcurator-v2-legacy, and will be archived.&lt;/p&gt;
+
+&lt;p&gt;If you have any comments or questions about WCT please get in touch with us, we would love to hear from you.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/email.png&quot; alt=&quot;&quot; style=&quot;height: 1.42em;&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://webcurator.slack.com/&quot;&gt;Slack&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/WebCuratorTool/webcurator&quot;&gt;Github&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://twitter.com/webcuratortool&quot;&gt;@WebCuratorTool&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Ben O'Brien</name></author><summary type="html">Welcome to the new website for the Web Curator Tool (WCT). On the new site you will find important links for new and existing WCT users, such as guides for getting up and running, documentation, source code, the features of WCT and our development roadmap.</summary></entry></feed>

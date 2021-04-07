@@ -1,0 +1,41 @@
+# main links
+main:
+  - title: WCT
+    children:
+      - page: Overview
+        url: /overview
+      - page: Features
+        url: /features
+      - page: Download
+        url: https://github.com/WebCuratorTool/webcurator/releases
+  - title: Github
+    url: https://github.com/WebCuratorTool/webcurator
+  - title: News
+    url: /news/
+  - title: Support
+    children:
+      - page: Support
+        url: /support/
+      - page: Documentation
+        url: https://webcuratortool.readthedocs.io/
+      - page: Guides/Demo
+        url: /guide/
+      - page: Contact
+        url: /support/#contact
+  - title: About
+    children:
+      - page: Community
+        url: /about/collaboration
+      - page: History
+        url: /about/history
+      - page: Publications
+        url: /about/publications
+about-wct:
+  - title: About
+    children:
+      - title: Community
+        url: /about/collaboration
+      - title: History
+        url: /about/history
+      - title: Publications
+        url: /about/publications
