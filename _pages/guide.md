@@ -31,13 +31,13 @@ Please follow the next steps to get the WCT demo version running:
 - Virtual Box application installed. Virtual box is available for free at [https://www.virtualbox.org/](https://www.virtualbox.org/)
 - Web browser (any kind will work) to access and use WCT
 
-**Step 1:** download the [disk image](https://drive.google.com/file/d/10sHcLpFpyaWTIPAacJzTIU_ZHV4pJo9F/view?usp=sharing) (about 2.5 GB) with WCT configured first.<br>
+**Step 1:** download the [disk image](https://drive.google.com/file/d/1tOfD9Hyq12Vacpxj48B1QEvhwVE5DhUG/view?usp=sharing) (about 4 GB) with WCT configured first.<br>
 **Step 2:** open Virtual Box and import the disk image by clicking “menu File -> Import Appliance”. Use the default options.<br>
 **Step 3:** start the newly created VM in Virtual Box.<br>
 
 *Note:* in some cases Virtual Box produces an error message about 'VT-x’. This is because Virtual Box requires hardware virtualisation to operate smoothly. You can enable this in the BIOS of your computer. In the BIOS search for "hardware virtualization" or "virtual technology" or "vt" to be allowed / enabled.
 
-**Step 4:** open your web browser and navigate to http://localhost:3080/curator/home.html<br>
+**Step 4:** open your regular web browser and navigate to http://localhost:3080/wct<br>
 **Step 5:** you now should see the start page from WCT. Login to the administration interface using the following credentials:
 
 user: demo<br>
