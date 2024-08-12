@@ -32,7 +32,7 @@ To build this site locally you first need to install Ruby and Jekyll.  The Ubunt
 -  sudo gem install jekyll bundler
 
 If an error is encountered when trying to build or serve the site, then you might need to downgrade Ruby to v3.0.6.
-To manage different versions of Ruby, it is recommended to use rbenv. Check out this [![guide](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04).
+To manage different versions of Ruby, it is recommended to use rbenv. Check out this [guide](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04).
 
 To install a specific Ruby version using rbenv, us the following commands:
 -  rbenv install 3.0.6
