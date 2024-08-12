@@ -27,13 +27,23 @@ commits to determine code authorship. Apache 2.0 License.
 
 ## Building and Running This Site Locally
 
-To build this site locally you first need to install Jekyll.  The Ubuntu commands are:
+To build this site locally you first need to install Ruby and Jekyll.  The Ubuntu commands are:
 -  sudo apt install ruby-full build-essential zlib1g-dev
 -  sudo gem install jekyll bundler
 
+If an error is encountered when trying to build or serve the site, then you might need to downgrade Ruby to v3.0.6.
+To manage different versions of Ruby, it is recommended to use rbenv. Check out this [![guide](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04).
 
-From within your `WebCuratorTool.github.io` directory, use command 
+To install a specific Ruby version using rbenv, us the following commands:
+-  rbenv install 3.0.6
+-  rbenv global 3.0.6
+-  ruby -v
+
+
+From within your `WebCuratorTool.github.io` directory, use commands 
+- bundle update
 - bundle install
+- bundle add webrick
 
 For other operating system instructions go to https://jekyllrb.com/docs/installation/.  If you have problems installing the bundler
 you may need to check your gems directory permissions.

@@ -29,7 +29,7 @@
 <loc>http://localhost:4000/categories/edge-case/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/about/features</loc>
+<loc>http://localhost:4000/features</loc>
 <lastmod>2020-12-04T16:02:20+13:00</lastmod>
 </url>
 <url>
@@ -53,7 +53,7 @@
 <loc>http://localhost:4000/news/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/about/overview</loc>
+<loc>http://localhost:4000/overview</loc>
 <lastmod>2020-05-02T02:15:22+12:00</lastmod>
 </url>
 <url>

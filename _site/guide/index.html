@@ -127,17 +127,34 @@
           <img src="/assets/images/wct_badge_h200.png" alt="Home" style="max-height: 3em; z-index: 999999; position: relative;">
           
         </a>
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://github.com/WebCuratorTool">Github</a>
-            </li><li class="masthead__menu-item">
-              <a href="https://webcuratortool.readthedocs.io/">Documentation</a>
-            </li><li class="masthead__menu-item">
-              <a href="/news/">News</a>
-            </li><li class="masthead__menu-item">
-              <a href="/support/">Support</a>
-            </li><li class="masthead__menu-item">
-              <a href="/about/overview">About</a>
-            </li></ul>
+        <ul class="visible-links">
+              <li class="nav-drop"> 
+                <button class="nav-drop-btn">WCT</button>
+                <div class="nav-drop-item"><a href="/overview">Overview</a><a href="/features">Features</a><a href="https://github.com/WebCuratorTool/webcurator/releases">Download</a></div>
+              </li>
+            
+              <li class="masthead__menu-item">
+                <b> 
+                <a href="https://github.com/WebCuratorTool/webcurator">Github</a>
+                </b>
+              </li>
+            
+              <li class="masthead__menu-item">
+                <b> 
+                <a href="/news/">News</a>
+                </b>
+              </li>
+            
+              <li class="nav-drop"> 
+                <button class="nav-drop-btn">Support</button>
+                <div class="nav-drop-item"><a href="/support/">Support</a><a href="https://webcuratortool.readthedocs.io/">Documentation</a><a href="/guide/">Guides/Demo</a><a href="/support/#contact">Contact</a></div>
+              </li>
+            
+              <li class="nav-drop"> 
+                <button class="nav-drop-btn">About</button>
+                <div class="nav-drop-item"><a href="/about/collaboration">Community</a><a href="/about/history">History</a><a href="/about/publications">Publications</a></div>
+              </li>
+            </ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -202,13 +219,13 @@
   <li>Web browser (any kind will work) to access and use WCT</li>
 </ul>
 
-<p><strong>Step 1:</strong> download the <a href="https://drive.google.com/file/d/10sHcLpFpyaWTIPAacJzTIU_ZHV4pJo9F/view?usp=sharing">disk image</a> (about 2.5 GB) with WCT configured first.<br />
+<p><strong>Step 1:</strong> download the <a href="https://drive.google.com/file/d/1tOfD9Hyq12Vacpxj48B1QEvhwVE5DhUG/view?usp=sharing">disk image</a> (about 4 GB) with WCT configured first.<br />
 <strong>Step 2:</strong> open Virtual Box and import the disk image by clicking “menu File -&gt; Import Appliance”. Use the default options.<br />
 <strong>Step 3:</strong> start the newly created VM in Virtual Box.<br /></p>
 
 <p><em>Note:</em> in some cases Virtual Box produces an error message about ‘VT-x’. This is because Virtual Box requires hardware virtualisation to operate smoothly. You can enable this in the BIOS of your computer. In the BIOS search for “hardware virtualization” or “virtual technology” or “vt” to be allowed / enabled.</p>
 
-<p><strong>Step 4:</strong> open your web browser and navigate to http://localhost:3080/curator/home.html<br />
+<p><strong>Step 4:</strong> open your regular web browser and navigate to http://localhost:3080/wct<br />
 <strong>Step 5:</strong> you now should see the start page from WCT. Login to the administration interface using the following credentials:</p>
 
 <p>user: demo<br />
@@ -282,7 +299,7 @@ password: Demo2020</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 National Library of the Netherlands, National Library of New Zealand. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 National Library of the Netherlands, National Library of New Zealand. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
